@@ -1,0 +1,86 @@
+header{
+    text-align: center;
+}
+
+h1{
+    border-bottom: 2px solid rgb(94, 129, 205);
+    padding-bottom: 0.5em;
+}
+
+h3{
+    color: orange;
+    margin: 1em;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+@media only screen and (max-width:700px){
+    img{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+.scoreCard{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.stars{
+    font-size: 24px;
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+}
+
+.star{
+    color:#1C2541;
+}
+.active{
+    color: gold;
+}
+
+.active:hover{
+    color: yellow;
+}
+
+.star:hover{
+    color: yellow;
+}
+
+.boton{
+    background: linear-gradient(135deg, rgb(50, 71, 123), rgb(75, 75, 165));
+    color: white;
+    box-shadow: 1px 1px 12px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.contenedorSaludar{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
